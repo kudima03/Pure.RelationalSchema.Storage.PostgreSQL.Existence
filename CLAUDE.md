@@ -50,7 +50,7 @@ CI runs mutation testing via `dotnet-stryker` at `Complete` level with a 100% br
 
 **Documentation:** `GenerateDocumentationFile` is on, so the XML docs ship in the package and a public member without a doc comment fails the build (CS1591 under `-warnaserror`).
 
-**Package validation:** `EnablePackageValidation = true`. There is no `PackageValidationBaselineVersion` until the first release; set it to the last published version after each release so breaking API changes fail the build.
+**Package validation:** `EnablePackageValidation = true`, and `PackageValidationBaselineVersion` is the last published version. Bump it after each release so breaking API changes fail the build.
 
 **Publishing:** triggered by pushing a semver tag matching `*.*.*`. The tag name becomes the `PackageVersion`. Packages are published to both GitHub Packages and NuGet.org.
 
