@@ -51,6 +51,7 @@ The hash covers the schema name, its tables, their columns and indexes, and its 
 - .NET 8
 - .NET 9
 - .NET 10
+- .NET 11
 
 ## Installation
 
