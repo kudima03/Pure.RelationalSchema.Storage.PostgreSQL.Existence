@@ -19,8 +19,8 @@
     <PackageProjectUrl>https://github.com/kudima03/Pure.RelationalSchema.Storage.PostgreSQL.Existence</PackageProjectUrl>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Pure.Primitives.String.Operations" Version="1.7.0" />
-    <PackageReference Include="Pure.RelationalSchema.HashCodes" Version="3.3.0" />
+    <PackageReference Include="Pure.Primitives.String.Operations" Version="1.8.0" />
+    <PackageReference Include="Pure.RelationalSchema.HashCodes" Version="3.4.0" />
   </ItemGroup>
   <ItemGroup>
     <InternalsVisibleTo Include="Pure.RelationalSchema.Storage.PostgreSQL.Existence.Tests" />
